@@ -1,0 +1,177 @@
+
+/*----------------------------------------*/
+/* Template default CSS
+/*----------------------------------------*/
+
+ html,
+ body {
+   height: 100%;
+   font-family: 'Poppins', sans-serif;
+   -webkit-font-smoothing: antialiased;
+   font-smoothing: antialiased;
+ }
+ 
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+   margin: 0;
+   color: #081624;
+   font-weight: 600;
+ }
+ 
+ h1 {
+   font-size: 70px;
+ }
+ 
+ h2 {
+   font-size: 38px;
+ }
+ 
+ h3 {
+   font-size: 30px;
+ }
+ 
+ h4 {
+   font-size: 24px;
+ }
+ 
+ h5 {
+   font-size: 18px;
+ }
+ 
+ h6 {
+   font-size: 16px;
+ }
+ 
+ p {
+   font-size: 14px;
+   color: #718090;
+   line-height: 2;
+ }
+ 
+ img {
+   max-width: 100%;
+ }
+ 
+ input:focus,
+ select:focus,
+ button:focus,
+ textarea:focus {
+   outline: none;
+ }
+ 
+ a:hover,
+ a:focus {
+   text-decoration: none;
+   outline: none;
+ }
+ 
+ ul,
+ ol {
+   padding: 0;
+   margin: 0;
+ }
+ 
+
+.menu-box ul.navbar-nav {
+  margin: 0 60px 0 auto;
+}
+.menu-box a.nav-link {
+  display: block;
+  font-size: 16px;
+  line-height: 35px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  opacity: 1;
+  text-transform: capitalize;
+  padding: 24px 30px 20px !important;
+  color: #363636;
+  position: relative;
+}
+.menu-box a.nav-link:before {
+    font-family: Flaticon;
+    position: absolute;
+    left: 0;
+    bottom: -25px;
+    right: 0;
+    content: "\f10a";
+    color: #0778ad;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
+    text-align: center;
+    z-index: -1;
+    transform: rotateX(180deg);
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+.menu-box a.nav-link:hover:before {
+    opacity: 1;
+    visibility: visible;
+}
+.page-btn a {
+  position: relative;
+  display: inline-block;
+  background: #0778ad;
+  color: #fff;
+  font-size: 15px;
+  text-transform: capitalize;
+  transition: .5s;
+  font-weight: 600;
+  line-height: 50px;
+  font-family: Oswald, sans-serif;
+  padding: 0 35px;
+  border-radius: 30px;
+  margin: 0px 0px 0px 0px;
+}
+
+.page-btn a:hover {
+  color: #f7f7f7;
+  background: #000;
+}
+
+.uper-contact-bar ul li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.logo-float {
+  width: 14%;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 9%;
+}
+.uper-contact-bar {
+  text-align: right;
+  background: #0778ad;
+  padding: 10px 0;
+}
+.uper-contact-bar ul li a {
+  color: #fff;
+  padding: 10px 0;
+  display: block;
+}
+.menu-box .menu {
+  padding: 10px 0;
+}
+.logo-float {
+  width: 14%;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 9%;
+  z-index: 99;
+  height: 190px;
+}
+
+
+
+
+
+
+
